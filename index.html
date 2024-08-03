@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>KamliyaSoft | Home</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+<!-- Navbar start -->
+<div class="container-fluid nav-bar">
+    <div class="container">
+        <nav class="navbar navbar-light navbar-expand-lg">
+            <a href="index.html" class="navbar-brand">
+                <!-- <h1 class="text-primary fw-bold mb-0">kamliya<span class="text-dark">soft</span> </h1> -->
+                <img src="./img/kamliyasoftImg-2.png" height="70" alt="">
+            </a>
+            <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars text-primary"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu bg-light custom-dropdown">
+                            <a href="book.html" class="dropdown-item">Web Development</a>
+                            <a href="blog.html" class="dropdown-item">Mobile App Development</a>
+                            <a href="team.html" class="dropdown-item">Game Development</a>
+                        </div>
+                    </div>
+                    <a href="event.html" class="nav-item nav-link">Portfolio</a>                            
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <button class="btn-search btn btn-success btn-md-square me-4 rounded-circle d-none d-lg-inline-flex" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                <a href="" class="btn btn-success py-2 px-4 d-none d-xl-inline-block rounded-pill">Estimate Project</a>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Navbar End -->
+
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control bg-transparent p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+        <!-- Hero Start -->
+        <div class="container-fluid bg-light py-6 my-6 mt-0">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-7 col-md-12">
+                        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-4 animated bounceInDown">Welcome to KamliyaSoft</small>
+                        <h1 class="display-1 mb-4 animated bounceInDown">Elevate <span class="text-primary">Your</span>Business with Cutting-Edge Tech Solutions from Our Experts</h1>
+                        <a href="" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft">Estimate Project</a>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <img src="./img/homeIng.png" class="img-fluid rounded animated zoomIn" alt="">
+                    </div>
+                </div>       
+            </div>
+        </div>
+        <!-- Hero End -->
+
+                <!-- Testimonial Start -->
+                <div class="container-fluid py-6">
+                    <div class="container">
+                        <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                            <!-- <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Testimonial</small> -->
+                            <h1 class="display-5 mb-5">Helping the world’s biggest brands revolutionize their industries.</h1>
+                        </div>
+                        <div class="owl-carousel owl-theme testimonial-carousel testimonial-carousel-1 mb-4 wow bounceInUp" data-wow-delay="0.1s">
+                            <div class="testimonial-item rounded bg-light">
+                                <img src="./img/asanaImg.png" class="img-fluid" width="100px" alt="">
+                            </div>
+                            <div class="testimonial-item rounded bg-light">
+                                <img src="./img/eventNeedzImg.png" class="img-fluid" width="100px" alt="">
+
+                            </div>
+                            <div class="testimonial-item rounded bg-light">
+                                <img src="./img/cbmImg.png" class="img-fluid" width="100px" alt="">
+
+                            </div>
+                            <div class="testimonial-item rounded bg-light">
+                                <img src="./img/anclaImg.png" class="img-fluid" width="100px" alt="">
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+<!-- About Start -->
+<div class="container-fluid py-6">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-5 wow bounceInUp" data-wow-delay="0.1s">
+                <img src="img/abouImg.jpg" class="img-fluid rounded" alt="">
+            </div>
+            <div class="col-lg-7 wow bounceInUp" data-wow-delay="0.3s">
+                <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">About Us</small>
+                <h1 class="display-5 mb-4">Welcome to Kamliyasoft</h1>
+                <p class="mb-4">KamliyaSoft is a leading technology solutions provider dedicated to delivering innovative and high-quality software services to meet the diverse needs of businesses and individuals alike. With a passion for technology and a commitment to excellence, we specialize in four key areas of software development: web development, mobile app development, game development, and software development.</p>
+                <div class="row g-4 text-dark mb-5">
+                    <div class="col-sm-6">
+                        <i class="fas fa-code text-primary me-2"></i>Web Development
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fas fa-mobile-alt text-primary me-2"></i>Mobile App Development
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fas fa-gamepad text-primary me-2"></i>Game Development
+                    </div>
+                    <div class="col-sm-6">
+                        <i class="fas fa-cogs text-primary me-2"></i>Software Development
+                    </div>
+                </div>
+                <a href="about.html" class="btn btn-primary py-3 px-5 rounded-pill">Learn More<i class="fas fa-arrow-right ps-2"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+
+        <!-- Fact Start-->
+        <div class="container-fluid faqt py-6">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-12">
+                       <div class="row g-4">
+                            <div class="col-sm-3 wow bounceInUp" data-wow-delay="0.3s">
+                                <div class="faqt-item bg-success rounded p-4 text-center">
+                                    <i class="fas fa-users fa-4x mb-4 text-white"></i>
+                                    <h1 class="display-4 fw-bold text-white" data-toggle="counter-up">300</h1>
+                                    <p class="text-dark text-uppercase fw-bold mb-0 text-white">Web Projects</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 wow bounceInUp" data-wow-delay="0.5s">
+                                <div class="faqt-item bg-success rounded p-4 text-center">
+                                    <i class="fas fa-users-cog fa-4x mb-4 text-white"></i>
+                                    <h1 class="display-4 fw-bold text-white" data-toggle="counter-up">200</h1>
+                                    <p class="text-dark text-uppercase fw-bold mb-0 text-white">Mobile Application Projects</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 wow bounceInUp" data-wow-delay="0.7s">
+                                <div class="faqt-item bg-success rounded p-4 text-center">
+                                    <i class="fas fa-check fa-4x mb-4 text-white"></i>
+                                    <h1 class="display-4 fw-bold text-white" data-toggle="counter-up">150</h1>
+                                    <p class="text-dark text-uppercase fw-bold mb-0 text-white">Games Project</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 wow bounceInUp" data-wow-delay="0.7s">
+                                <div class="faqt-item bg-success rounded p-4 text-center">
+                                    <i class="fas fa-check fa-4x mb-4 text-white"></i>
+                                    <h1 class="display-4 fw-bold text-white" data-toggle="counter-up">30</h1>
+                                    <p class="text-dark text-uppercase fw-bold mb-0 text-white">Software Projects</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Video -->
+        <!-- Fact End -->
+
+
+        <!-- Service Start -->
+        <div class="container-fluid service py-6">
+            <div class="container">
+                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">OUR OFFERINGS</small>
+                    <h1 class="display-5 mb-5">What We Offer</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.1s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <!-- <i class="fas fa-cheese fa-7x text-primary mb-4"></i> -->
+                                    <img src="./img/mobileimg.png" class="img-fluid" alt="">
+                                    <h4 class="mb-3">Mobile App development</h4>
+                                    <p class="mb-4">Over the last 6 years , we have provided Mobile application development services to 150+ clients and enterprises, our mobile application had a significant impact in the businesses of our clients.</p>
+                                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.3s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <!-- <i class="fas fa-pizza-slice fa-7x text-primary mb-4"></i> -->
+                                    <img src="./img/webimg.png" class="img-fluid" alt="">
+                                    <h4 class="mb-3">Web Application development</h4>
+                                    <p class="mb-4">The world is going digital, don’t just limit yourself, Using a website you can start finding customers globally now. We ensure that you will find the best web design services at Digital Suncity!.</p>
+                                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.5s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <!-- <i class="fas fa-hotdog fa-7x text-primary mb-4"></i> -->
+                                    <img src="./img/ios.png" class="img-fluid" alt="">
+
+                                    <h4 class="mb-3">Game development</h4>
+                                    <p class="mb-4">Unlock boundless creativity with our game development services. Dive into the immersive realm of interactive experiences crafted by our expert team. Level up your ideas and let us bring your gaming vision to life!</p>
+                                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 wow bounceInUp" data-wow-delay="0.7s">
+                        <div class="bg-light rounded service-item">
+                            <div class="service-content d-flex align-items-center justify-content-center p-4">
+                                <div class="service-content-icon text-center">
+                                    <!-- <i class="fas fa-hamburger fa-7x text-primary mb-4"></i> -->
+                                    <img src="./img/gameImg.webp" class="img-fluid" alt="">
+
+                                    <h4 class="mb-3">Dynamic Dedicated Development Team</h4>
+                                    <p class="mb-4">Unlock boundless creativity with our game development services. Dive into the immersive realm of interactive experiences crafted by our expert team. Level up your ideas and let us bring your gaming vision to life!</p>
+                                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+
+                <!-- Testimonial Start -->
+                <div class="container-fluid py-6">
+                    <div class="container">
+                        <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                            <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Testimonial</small>
+                            <h1 class="display-5 mb-5">What Clients Says</h1>
+                        </div>
+                        <div class="owl-carousel owl-theme testimonial-carousel testimonial-carousel-1 mb-4 wow bounceInUp" data-wow-delay="0.1s">
+                            <div class="testimonial-item rounded bg-light">
+                                <div class="d-flex mb-3">
+                                    <img src="./img/client-1.webp" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                                    <div class="position-absolute" style="top: 15px; right: 20px;">
+                                        <i class="fa fa-quote-right fa-2x"></i>
+                                    </div>
+                                    <div class="ps-3 my-auto">
+                                        <h4 class="mb-0">Trading Software</h4>
+                                        <p class="m-0">Profession</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-content">
+                                    <div class="d-flex">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                    <p class="fs-5 m-0 pt-3"> Kamliyasoft team worked diligent to complete the project on time and within budget.
+                                        The Development process goes very well as per expectation.</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item rounded bg-light">
+                                <div class="d-flex mb-3">
+                                    <img src="./img/client-2.png" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                                    <div class="position-absolute" style="top: 15px; right: 20px;">
+                                        <i class="fa fa-quote-right fa-2x"></i>
+                                    </div>
+                                    <div class="ps-3 my-auto">
+                                        <h4 class="mb-0">Peanut Full Time Football</h4>
+                                        <p class="m-0">Profession</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-content">
+                                    <div class="d-flex">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                    <p class="fs-5 m-0 pt-3">I recently collaborated with Kamliyasoft for the development of my football game project, and the experience was nothing short of exceptional.</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item rounded bg-light">
+                                <div class="d-flex mb-3">
+                                    <img src="./img/client-3.png" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                                    <div class="position-absolute" style="top: 15px; right: 20px;">
+                                        <i class="fa fa-quote-right fa-2x"></i>
+                                    </div>
+                                    <div class="ps-3 my-auto">
+                                        <h4 class="mb-0">Schoolselibrary</h4>
+                                        <p class="m-0">Profession</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-content">
+                                    <div class="d-flex">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                    <p class="fs-5 m-0 pt-3">I recently had the pleasure of partnering with Kamliyasoft for my website project, and the experience was  outstanding. kamliyasoft  exceeded my expectations.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="owl-carousel testimonial-carousel testimonial-carousel-2 wow bounceInUp" data-wow-delay="0.3s">
+                            <div class="testimonial-item rounded bg-light">
+                                <div class="d-flex mb-3">
+                                    <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                                    <div class="position-absolute" style="top: 15px; right: 20px;">
+                                        <i class="fa fa-quote-right fa-2x"></i>
+                                    </div>
+                                    <div class="ps-3 my-auto">
+                                        <h4 class="mb-0">Person Name</h4>
+                                        <p class="m-0">Profession</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-content">
+                                    <div class="d-flex">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                    <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item rounded bg-light">
+                                <div class="d-flex mb-3">
+                                    <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                                    <div class="position-absolute" style="top: 15px; right: 20px;">
+                                        <i class="fa fa-quote-right fa-2x"></i>
+                                    </div>
+                                    <div class="ps-3 my-auto">
+                                        <h4 class="mb-0">Person Name</h4>
+                                        <p class="m-0">Profession</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-content">
+                                    <div class="d-flex">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                    <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item rounded bg-light">
+                                <div class="d-flex mb-3">
+                                    <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                                    <div class="position-absolute" style="top: 15px; right: 20px;">
+                                        <i class="fa fa-quote-right fa-2x"></i>
+                                    </div>
+                                    <div class="ps-3 my-auto">
+                                        <h4 class="mb-0">Person Name</h4>
+                                        <p class="m-0">Profession</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-content">
+                                    <div class="d-flex">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                    <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-item rounded bg-light">
+                                <div class="d-flex mb-3">
+                                    <img src="img/testimonial-4.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                                    <div class="position-absolute" style="top: 15px; right: 20px;">
+                                        <i class="fa fa-quote-right fa-2x"></i>
+                                    </div>
+                                    <div class="ps-3 my-auto">
+                                        <h4 class="mb-0">Person Name</h4>
+                                        <p class="m-0">Profession</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-content">
+                                    <div class="d-flex">
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                        <i class="fas fa-star text-primary"></i>
+                                    </div>
+                                    <p class="fs-5 m-0 pt-3">Lorem ipsum dolor sit amet elit, sed do eiusmod tempor ut labore et dolore magna aliqua.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial End -->
+        
+        <!-- Team Start -->
+        <div class="container-fluid team py-6">
+            <div class="container">
+                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Our Team</small>
+                    <h1 class="display-5 mb-5">We have experienced Development Team</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="0.1s">
+                        <div class="team-item rounded">
+                            <img class="img-fluid rounded-top " src="./img/teamImg.avif" alt="">
+                            <div class="team-content text-center py-3 bg-dark rounded-bottom">
+                                <h4 class="text-primary">Henry</h4>
+                                <p class="text-white mb-0">MernStack dev</p>
+                            </div>
+                            <div class="team-icon d-flex flex-column justify-content-center m-4">
+                                <a class="share btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fas fa-share-alt"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="0.3s">
+                        <div class="team-item rounded">
+                            <img class="img-fluid rounded-top " src="./img/teamImg.avif" alt="">
+                            <div class="team-content text-center py-3 bg-dark rounded-bottom">
+                                <h4 class="text-primary">Jemes Born</h4>
+                                <p class="text-white mb-0">Fullstack Developer</p>
+                            </div>
+                            <div class="team-icon d-flex flex-column justify-content-center m-4">
+                                <a class="share btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fas fa-share-alt"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="0.5s">
+                        <div class="team-item rounded">
+                            <img class="img-fluid rounded-top " src="./img/teamImg.avif" alt="">
+                            <div class="team-content text-center py-3 bg-dark rounded-bottom">
+                                <h4 class="text-primary">Martin Hill</h4>
+                                <p class="text-white mb-0">Devops Engg</p>
+                            </div>
+                            <div class="team-icon d-flex flex-column justify-content-center m-4">
+                                <a class="share btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fas fa-share-alt"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow bounceInUp" data-wow-delay="0.7s">
+                        <div class="team-item rounded">
+                            <img class="img-fluid rounded-top " src="./img/teamImg.avif" alt="">
+                            <div class="team-content text-center py-3 bg-dark rounded-bottom">
+                                <h4 class="text-primary">Adam Smith</h4>
+                                <p class="text-white mb-0">Software Engg</p>
+                            </div>
+                            <div class="team-icon d-flex flex-column justify-content-center m-4">
+                                <a class="share btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fas fa-share-alt"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="share-link btn btn-primary btn-md-square rounded-circle mb-2" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+        <!-- Testimonial End -->
+       <!-- Footer Start -->
+       <div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-item">
+                        <!-- <h1 class="text-primary">kamliya<span class="text-dark">soft</span></h1> -->
+                <img src="./img/kamliyasoftImg-2.png" height="70" alt="">
+                <p class="lh-lg mb-4">Kamliyasoft is a leading technology solutions provider dedicated to delivering innovative and high-quality software services </p>
+                        <div class="footer-icon d-flex">
+                            <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="btn btn-primary btn-sm-square rounded-circle"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-item">
+                        <h4 class="mb-4">Special Facilities</h4>
+                        <div class="d-flex flex-column align-items-start">
+                            <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Web Development</a>
+                            <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Game Development</a>
+                            <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>App Development</a>
+                            <a class="text-body mb-3" href=""><i class="fa fa-check text-primary me-2"></i>Dynamic Dedicated Development Team</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-item">
+                        <h4 class="mb-4">Contact Us</h4>
+                        <div class="d-flex flex-column align-items-start">
+                            <p><i class="fa fa-map-marker-alt text-primary me-2"></i> Ridhi Sidhi Circle, Manglam tower 3rd Floor , office Number 48 Jaipur Rajsthan 302018 INDIA.</p>
+                            <p><i class="fa fa-phone-alt text-primary me-2"></i> +91 9870907906 , +91 9837458038</p>
+                            <p><i class="fas fa-envelope text-primary me-2"></i> info@kamliyasoft.com</p>
+                            <p><i class="fa fa-clock text-primary me-2"></i> 24/7 Hours Service</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright bg-dark py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center mb-3 mb-md-0">
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>2023 kamliyasoft</a>, All right reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- @ 2023 kamliyasoft. All rights reserved. Design by kamliyasoft -->
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
